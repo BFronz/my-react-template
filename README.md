@@ -5,7 +5,7 @@ React template using API, Material UI. Work in progress.
 
 ```
  
-clone https://github.com/BFronz/covidtracker.git
+clone https://github.com/BFronz/my-react-template.git
 
 npm install package.json
 
@@ -29,7 +29,7 @@ Runs on Heroku:  https://guarded-savannah-52896.herokuapp.com/
 
 
 
-<img src="src/images/covidsample.png" alt="covid sample">
+
 
 
 
