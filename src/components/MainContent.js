@@ -26,9 +26,10 @@ console.log(fetchedData);
       <main className={styles.container}>  
         <Grid container spacing={4} justify="center">
           <Typography color="textSecondary" paragraph >    
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus,
-            nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem
-            felis nec erat   
+          <p>API Data:</p>     
+           {Object.keys(fetchedData).map(
+              (item, i) => ( <div key={i}>  { fetchedData[item].id} { fetchedData[item].first_name  } { fetchedData[item].last_name  } { fetchedData[item].email}</div> )
+          )} 
             
           </Typography>     
         </Grid>
@@ -39,6 +40,3 @@ console.log(fetchedData);
 
 
 export default MainContent;
-
-
-

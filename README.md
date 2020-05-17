@@ -1,5 +1,5 @@
 # ReactTemplate
-React template using API, Material UI. Work in progress. 
+React template using API, Material UI.  
 
 ### Installing
 
